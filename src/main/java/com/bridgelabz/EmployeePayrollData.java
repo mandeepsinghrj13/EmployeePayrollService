@@ -29,4 +29,13 @@ public class EmployeePayrollData {
     public void setSalary(double salary) {
         this.salary = salary;
     }
+
+    @Override
+    public String toString() {
+        return "EmployeePayrollData{" +
+                "name='" + name + '\'' +
+                ", id=" + id +
+                ", salary=" + salary +
+                '}';
+    }
 }
